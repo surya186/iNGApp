@@ -9,7 +9,7 @@ import { Recipe } from '../recipe.model';
 export class RecipeListComponent implements OnInit {
 
   recipes: Recipe[] =[
-    new Recipe('Test Recipe', 'Test Recipe description', '../sampleImages/sampleRecipeImage.jpg')
+    new Recipe('Test Recipe', 'Test Recipe description', 'https://pinchofyum.com/wp-content/uploads/Buffalo-Cauliflower-Tacos-with-Avocado-Cremajpg.jpg')
   ];
 
   constructor() { }
