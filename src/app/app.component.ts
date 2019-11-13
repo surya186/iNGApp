@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'iNGApp';
+  loadedFeature = 'recipe'
+  emittedFeature(feature: string) {
+    this.loadedFeature = feature;
+  }
+
+
 }

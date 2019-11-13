@@ -1,0 +1,1 @@
+In this commit, added a facility to navigate to the respective section from the header component. If recipe selected in the header then the app comp only displays recipe section similarly If shopping list selected in the header then the app comp displays shopping list details. 
